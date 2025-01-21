@@ -14,8 +14,86 @@
     </header>
 
     <pre>
-        <h1>My First Web Page</h1>
-        <p>Welcome to my first web page! This is a simple example of a web page that is built using HTML, CSS, and JavaScript. Feel free to explore the code and make changes to see how it affects the page. Have fun!</p>
+250121-155403#
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+.github.io/CLTS/
+https://clts-prjaab-d338e3.gitlab.io
+github
+https://smwmr2001a.github.io/CLTS/
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+.gitlab-ci.yml
+
+pages:
+  stage: deploy
+  script:
+    - mkdir .public
+    - cp -r * .public
+    - mv .public public
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+https://clts-prjaaa-275b13.gitlab.io/
+git pull origin main
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+git status  
+git add .
+git commit -m "commit5"
+git push origin main
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+$ cat /c/Users/2008605/.ssh/id_ed25519
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAEI3U20zohHG7KHn9N9rIIiDAOZvRowv9TSaoh/8YkAgAAAJibJEIumyRC
+LgAAAAtzc2gtZWQyNTUxOQAAACAEI3U20zohHG7KHn9N9rIIiDAOZvRowv9TSaoh/8YkAg
+AAAED1ZAiJr36TOx+yP66nKsefwkJ/A8DVUrmmWpVbfloPjAQjdTbTOiEcbsoef032sgiI
+MA5m9GjC/1NJqiH/xiQCAAAAFDIwMDg2MDVAV01JMTg4MTYwLVBDAQ==
+-----END OPENSSH PRIVATE KEY-----
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+$ cat id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAQjdTbTOiEcbsoef032sgiIMA5m9GjC/1NJqiH/xiQC 2008605@WMI188160-PC
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+git@gitlab.com:clts/CLTS_PRJAAA.git
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+token
+glpat-HkKW53Av5d8kQDj9agc9
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Make sure you configure your "user.name" and "user.email" in git.
+
+Make sure you configure your "user.name" and "user.email"
+git config --global user.name "Smwilla Kim"
+git config --global user.email "smwmr2001a@gmail.com"
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+git init
+git add .
+git status
+git commit -m "first commit"
+	git commit -m "seccom commit"
+	git branch -M main
+
+git remote add origin git@gitlab.com:clts/CLTS_PRJAAA.git
+
+git remote add origin https://github.com/smwmr2001a/CLTS.git
+	need key git remote add origin git@github.com:smwmr2001a/CLTS.git
+
+git remote -v
+git push origin main
+	git push origin master
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
     </pre>
 
 
